@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "9656000000008001",
+      "name": "habulusbackendrender",
+      "domain": {
+        "id": "50022545077",
+        "name": "habulusbackendrender-60033221702.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60033221702",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
