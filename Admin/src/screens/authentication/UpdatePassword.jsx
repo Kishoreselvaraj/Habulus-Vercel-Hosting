@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 // import Image1 from "../../assets/auth.png";
-import Image1 from "../../assets/auth.png"
+import Image1 from "../../assets/auth.jpg"
 import Logo from "../../assets/logo.png";
 import toast from "react-hot-toast";
 import axios from "axios";

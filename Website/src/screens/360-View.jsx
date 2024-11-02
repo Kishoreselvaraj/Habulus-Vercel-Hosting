@@ -45,14 +45,64 @@ function View360() {
           ></iframe>
         </div>
       </section>
-      <div className="w-full h-[2px] p-[1px] mb-6 bg-black/20"></div>
-      <iframe
-        src="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html"
-        height="450"
-        className="w-full"
-        allowFullScreen=""
-        loading="lazy"
-      ></iframe>
+      <div className="flex flex-wrap justify-center">
+  {/* Row 1 */}
+  <div className="relative w-1/3 p-2">
+    <a href="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html" target="_blank" rel="noopener noreferrer">
+      <img src={Map} alt="360 View" className="w-full h-auto transition-transform duration-300 transform hover:scale-105" />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <span className="text-white font-bold">360 View</span>
+      </div>
+    </a>
+  </div>
+
+  {/* Repeat for other images */}
+  <div className="relative w-1/3 p-2">
+    <a href="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html" target="_blank" rel="noopener noreferrer">
+      <img src={Map} alt="360 View" className="w-full h-auto transition-transform duration-300 transform hover:scale-105" />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <span className="text-white font-bold">360 View</span>
+      </div>
+    </a>
+  </div>
+
+  {/* Add more images as needed */}
+  <div className="relative w-1/3 p-2">
+    <a href="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html" target="_blank" rel="noopener noreferrer">
+      <img src={Map} alt="360 View" className="w-full h-auto transition-transform duration-300 transform hover:scale-105" />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <span className="text-white font-bold">360 View</span>
+      </div>
+    </a>
+  </div>
+
+  {/* Repeat for the second row */}
+  <div className="relative w-1/3 p-2">
+    <a href="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html" target="_blank" rel="noopener noreferrer">
+      <img src={Map} alt="360 View" className="w-full h-auto transition-transform duration-300 transform hover:scale-105" />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <span className="text-white font-bold">360 View</span>
+      </div>
+    </a>
+  </div>
+  <div className="relative w-1/3 p-2">
+    <a href="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html" target="_blank" rel="noopener noreferrer">
+      <img src={Map} alt="360 View" className="w-full h-auto transition-transform duration-300 transform hover:scale-105" />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <span className="text-white font-bold">360 View</span>
+      </div>
+    </a>
+  </div>
+  <div className="relative w-1/3 p-2">
+    <a href="https://www.keypano.com/v/bnbjla_9_26603-1715087445.html" target="_blank" rel="noopener noreferrer">
+      <img src={Map} alt="360 View" className="w-full h-auto transition-transform duration-300 transform hover:scale-105" />
+      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
+        <span className="text-white font-bold">360 View</span>
+      </div>
+    </a>
+  </div>
+</div>
+
 
       <section className=" py-4 w-full mx-auto max-w-6xl">
         <div className="w-full px-6 md:px-16 py-10">

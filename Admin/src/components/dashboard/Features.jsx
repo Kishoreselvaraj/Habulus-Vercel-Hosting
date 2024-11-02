@@ -13,6 +13,8 @@ const Features = ({ id }) => {
     "Theatre",
     "Playground",
     "Swimming Pool",
+    "Metro Station",
+    "IT Parks",
   ];
 
   const [facing, setFacing] = useState({

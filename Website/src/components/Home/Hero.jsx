@@ -6,7 +6,7 @@ import Home4 from "../../assets/image4.png";
 import Home5 from "../../assets/image5.png";
 import Home6 from "../../assets/image6.png";
 import Home7 from "../../assets/image7.png";
-import IntroImage from "../../assets/Front photo.png";
+import IntroImage from "../../assets/Front photo.jpg";
 import { AiFillCloseSquare, AiOutlineClose } from "react-icons/ai";
 
 const Hero = ({ refs }) => {
