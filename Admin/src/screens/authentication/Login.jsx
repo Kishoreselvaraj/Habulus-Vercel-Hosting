@@ -3,7 +3,7 @@ import axios from "axios";
 import { API_LINK } from "../../utils/api";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
-import Image1 from "../../assets/auth.png";
+import Image1 from "../../assets/auth.jpg";
 import Logo from "../../assets/logo.png";
 
 const Login = () => {

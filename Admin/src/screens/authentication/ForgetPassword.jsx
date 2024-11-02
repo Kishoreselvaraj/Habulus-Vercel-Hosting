@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { API_LINK } from "../../utils/api";
 import toast from "react-hot-toast";
-import Image1 from "../../assets/auth.png";
+import Image1 from "../../assets/auth.jpg";
 
 const ForgetPassword = () => {
   const [email, setEmail] = useState("");
