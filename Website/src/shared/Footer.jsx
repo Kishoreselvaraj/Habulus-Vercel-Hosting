@@ -64,11 +64,11 @@ const Footer = ({ refs }) => {
           <p className="text-white font-bold text-2xl w-[90%] relative z-10 mb-2">
             Habulus Group
           </p>
-          <p className="text-white  text-1.5xl w-[50%] relative z-10">
-            <Link to="/ready-to-move-in">1BHK flats in Bangalore</Link><br />
-            <Link to="/ready-to-move-in">2BHK flats in Bangalore</Link><br />
-            <Link to="/ready-to-move-in">3BHK flats in Bangalore</Link><br />
-            <Link to="/ready-to-move-in">4BHK flats in Bangalore</Link><br />
+          <p className="text-white  text-1.5xl w-[50%] relative z-10 ">
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">1BHK flats in Bangalore</Link><br />
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">2BHK flats in Bangalore</Link><br />
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">3BHK flats in Bangalore</Link><br />
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">4BHK flats in Bangalore</Link><br />
           </p>
         </div>
         <div className="w-full md:w-1/2 mb-5">
@@ -76,10 +76,10 @@ const Footer = ({ refs }) => {
             Habulus Group
           </p>
           <p className="text-white  text-1.5xl w-[90%] relative z-10">
-          <Link to="/ready-to-move-in">Appartments between 20L - 30L in bangalore<br /></Link>
-            <Link to="/ready-to-move-in">Appartments between 30L - 40L in bangalore<br /></Link>
-            <Link to="/ready-to-move-in">Appartments between 40L - 50L in bangalore<br /></Link>
-            <Link to="/ready-to-move-in">Appartments between 50L - 60L in bangalore</Link>
+          <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">Appartments between 20L - 30L in bangalore<br /></Link>
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">Appartments between 30L - 40L in bangalore<br /></Link>
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">Appartments between 40L - 50L in bangalore<br /></Link>
+            <Link className="hover:text-[#FAFF00]" to="/ready-to-move-in">Appartments between 50L - 60L in bangalore</Link>
           </p>
         </div>
       </div>

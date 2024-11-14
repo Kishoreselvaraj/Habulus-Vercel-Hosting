@@ -1,0 +1,240 @@
+.foundation-page {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  padding-top: 100px;
+}
+
+.foundation-info {
+  text-align: left;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.donation-content {
+  width: 800px;
+}
+
+.foundation-info h1 {
+  font-size: 2rem;
+  color: #154166;
+  font-weight: 800;
+  font-family: Roboto;
+}
+
+.foundation-info p {
+  font-size: 1rem;
+  color: black;
+}
+
+.foundation-description {
+  color: #154166;
+}
+
+.charity-image {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+.donation-section {
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.donation-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.donation-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-box h2 {
+  color: #154166;
+  font-weight: 800;
+  font-family: Roboto;
+}
+
+.donation-gateway {
+  background-color: #C2E8FF;
+  width: 300px;
+  height: 400px;
+  margin-left: 300px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.donate_logo {
+  width: 50px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+.img-container {
+  width: 100px;
+}
+
+.patient-image {
+  width: 100%;
+  min-width: 400px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.carousel .slide {
+  display: flex;
+  align-items: center;
+}
+
+.progress-text {
+  font-size: 1.2rem;
+  color: #28a745;
+  margin: 1rem 0;
+}
+
+.donate-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.qr-code img {
+  width: 180px;
+  height: 180px;
+  margin: 1rem 0;
+  justify-self: center;
+}
+
+.donate-instructions {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.verification-section {
+  background-color: #e9ecef;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.verification-section h3 {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.verification-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.verification-section li {
+  font-size: 1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.verified {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.check-doc-button {
+  background-color: #343a40;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Breakpoints for responsiveness */
+@media (max-width: 1200px) {
+  .donation-content {
+    width: 600px;
+  }
+  .carousel .slide {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .foundation-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .donation-section {
+    flex-direction: column;
+  }
+  .donation-gateway {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .patient-image {
+    min-width: 300px;
+  }
+  .carousel .slide {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .foundation-info h1 {
+    font-size: 1.8rem;
+  }
+  .donation-content {
+    width: 100%;
+  }
+  .charity-image, .donate_logo {
+    max-width: 100%;
+  }
+  .qr-code img {
+    width: 150px;
+    height: 150px;
+  }
+  .carousel .slide {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .foundation-info h1 {
+    font-size: 1.5rem;
+  }
+  .foundation-info p {
+    font-size: 0.9rem;
+  }
+  .donation-section h2 {
+    font-size: 1.3rem;
+  }
+  .donate-button, .check-doc-button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .carousel .slide {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+}

@@ -12,6 +12,7 @@ import WALogo from "./assets/whatsapp.png";
 import { IoIosClose } from "react-icons/io";
 import View360 from "./screens/360-View";
 import View2D3D from "./screens/2D-3D";
+import Trust from "./components/Trust/Trust";
 
 const App = () => {
   const [open, setOpen] = useState(true);
@@ -54,6 +55,7 @@ const App = () => {
           <Route path="/under-construction" element={<UnderConstruction />} />
           <Route path="/view-360" element={<View360 />} />
           <Route path="/view-2D3D" element={<View2D3D />} />
+          <Route path="/donation" element={<Trust />} />
         </Routes>
         <Footer
           refs={{
