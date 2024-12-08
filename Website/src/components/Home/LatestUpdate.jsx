@@ -20,8 +20,8 @@ const LatestUpdate = () => {
       );
       setData(resp.data.data);
     } catch (error) {
-      console.log("Error in loading Latest Update");
-      toast.error("Error in Loading Latest Update");
+      // console.log("Error in loading Latest Update");
+      // toast.error("Error in Loading Latest Update");
     }
     setLoading(false);
   };
