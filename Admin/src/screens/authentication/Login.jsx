@@ -88,8 +88,7 @@ const Login = () => {
                 type="password"
                 placeholder="Password"
                 name="password"
-                // value={data.password}
-                value={1234}
+                value={data.password}
                 onChange={handleChange}
               />
             </div>
